@@ -6,7 +6,7 @@
     "url": "https://louis-helphelp.zendesk.com/"
   },
   "defaultLocale": "en",
-  "private": true,
+  "private": false,
   "signedUrls": true,
   "location": {
     "support": {

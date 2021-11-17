@@ -1,10 +1,7 @@
 $(async function() {
   const client = ZAFClient.init();
   // Get App context
-  const context = await client.context();
-  console.log('Client context : ', { context });
   const currentUser = await client.get('currentUser');
-  console.log('Current user : ', { currentUser });
   showCurrentUserInfo(currentUser.currentUser);
 
   // getAgentInfo(client)
@@ -46,9 +43,7 @@ function getAgentInfo(client) {
   };
 
   return client.request(options).then(
-    (data) => {
-      console.log('Data : ', data);
-    },
+    (data) => SharedWorker(data),
     (response) => showError(response)
   );
 }
