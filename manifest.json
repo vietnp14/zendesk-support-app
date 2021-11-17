@@ -1,0 +1,18 @@
+{
+  "name": "Requester X-ray",
+  "author": {
+    "name": "louis nguyen",
+    "email": "vietnp14@gmail.com",
+    "url": "https://louis-helphelp.zendesk.com/"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "signedUrls": true,
+  "location": {
+    "support": {
+      "nav_bar": "assets/iframe.html"
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}
